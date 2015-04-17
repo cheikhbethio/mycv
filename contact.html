@@ -1,0 +1,122 @@
+<?php
+$to = "moukhadimat@hotmail.fr";
+$subject = "stage";
+$message = "Nom et prenom: " . $_POST['name'] . "\r\n" . "Adresse mail: " . $_POST['email'] . "\r\n" ."Residence: " . $_POST['residence'] . "\r\n" . "\r\n" . "Message: " . $_POST['message'];
+$from= "moukhadimat@hotmail.fr"; //$_POST['email'];
+$headers = "From: $from" . "/r/n";
+mail($to,$subject,$message,$headers);
+?>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CV - baye Moussa</title>
+        <link href="bootstrap.css" rel="stylesheet">
+        <link href="tuto.css" rel="stylesheet">
+        
+    </head>
+   <body>
+    <div class="container">
+      <div class="row">
+        <div id="tete" class="col-lg-12">
+            <nav id="nav_barre_page_telecharge" class="col-lg-offset-1 col-lg-10"> 
+                    <ul id="nav_ul_barre_page">
+                        <li id="nav_li_barre_page"><a href="index.html" >À propos de moi</a></li>|
+                        <li id="nav_li_barre_page"><a href="myformation.html">Formation</a></li>|
+                        <li id="nav_li_barre_page"><a href="myexperience.html">Expérience</a></li>| 
+                        <li id="nav_li_barre_page"><a href="mycompetence.html">Compétences</a></li>|
+                        <li id="nav_li_barre_page"><a href="portefolio.html">Portefolio</a></li>|
+                        <li id="nav_li_barre_page"><a href="contact.html">Contact</a></li>|
+                        <li id="nav_li_barre_page"><a href="telecharger.html">Télécharger CV</a></li>
+                    </ul>
+            </nav>
+        </div>
+
+        <div id="corps" class="col-lg-12">
+            <div class="col-lg-4">
+                <div id="nom"> MOUSSA SOW :</div>
+                <div>
+                   <p id= "ad_et_tel">20 rue eugene le roy <br>
+                        33800 bordeaux, apt 22  <br>
+                        Tél: +33 (0)6 26 92 00 08 <br>
+                        Mail: mmoussasow@gmail.com<br>  
+                    </p>
+                </div>
+            </div>
+            <div class=" col-lg-8"> 
+                <div id="entete_form">Prenez Contact avec moi</div>
+                <div class="col-lg-12" id="form_contact">
+	 				<form class="form-horizontal col-lg-12">
+					  <div class="form-group">
+					    <legend>Vous pouvez saisir vos informations ici pour être recontacté!!!</legend>
+					  </div>
+					  <div class="row">
+					    <div class="form-group">
+					      <label for="text" class="col-lg-2 control-label">Nom : </label>
+					      <div class="col-lg-4">
+					        <input type="text" class="form-control" id="nom_form" placeholder="Saisissez votre nom et prénom">
+					      </div>
+					    </div>
+					  </div>
+					  <div class="row">
+					    <div class="form-group">
+					      <label for="text" class="col-lg-2 control-label">Objet : </label>
+					      <div class="col-lg-4">
+					        <input type="text" class="form-control" id="objet" placeholder="Objet de demande">
+					      </div>
+					    </div>
+					  </div>
+					  <div class="row">
+					    <div class="form-group">
+					      <label for="text" class="col-lg-2 control-label">Mail : </label>
+					      <div class="col-lg-4">
+					        <input type="text" class="form-control" id="mail" placeholder="Votre mail">
+					      </div>
+					    </div>
+					  </div>
+					  <div class="row">
+					    <div class="form-group">
+					      <label for="textarea" class="col-lg-2 control-label">Message : </label>
+					      <div class="col-lg-4">
+					        <input type="textarea" class="form-control" id="message" placeholder="Votre message">
+					      </div>
+					    </div>
+					  </div>
+					
+					  <div class="form-group">
+					    <button class="pull-center btn btn-default">Envoyer</button>
+					  </div>
+					</form>
+	            </div>
+            </div> 
+        </div>
+        <footer class="col-lg-12">
+            <div id="pied" class="col-lg-12">
+                <ul id="nav_ul_barre_page">
+                    <li id="nav_li_barre_page"><a href="http://www.u-bordeaux.fr/Pied-de-page/Credits-et-mentions-legales" id="a_li_barre_page"> Crédit et mentions légales</a></li>
+                    <li id="nav_li_barre_page"><a href="http://www.u-bordeaux1.fr/ufr/math-info/formation/informatique/masters/master-informatique/specialite-genie-logiciel.html" id="a_li_barre_page"> Université de Bordeaux</a></li>
+                    <li id="nav_li_barre_page"><a href="" id="a_li_barre_page"> Copyright © 2014 Moussa SOW</a></li>
+                </ul>
+            </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

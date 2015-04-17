@@ -1,0 +1,381 @@
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+  width: 100%;/*
+  background-color: #00FF00;*/
+    	background-color: #62a9b6;
+    	background-image : url(./images/bg.png);
+}
+[class*="col-"], footer {/*
+  background-color: lightgreen;
+  border: 2px solid black;*/
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffffff;
+  min-width: 230px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+#bloc_page
+{
+
+   box-shadow: 8px 8px 8px #bfbfbf;
+}
+/***********************
+
+
+***********************/
+nav a:hover
+{
+    color: #FFFF00;
+    border-bottom: 3px solid #760001;
+}
+#tete_index
+{
+    background-color: rgb(240,240,240);
+}
+
+
+#titre_principal
+{
+    display: inline-block;
+    font-family: Dayrom, serif, 'BallparkWeiner';
+    font-weight: normal;/*
+    background-color: rgb(240,240,240);*/
+}
+
+#tataaside
+{
+    background-color: rgba(0,0,250,0.18);    
+    box-shadow: 8px 8px 5px #aaa;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family:   'Dayrom',"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    line-height: 1.666666667em;
+    color: #6c6764;
+    text-align: center;
+    min-width: 230px;
+  }
+
+#corps_index
+{
+  margin-top: 20px;
+}
+
+#ligne_lien_1
+{
+  margin-top: 10px;
+}
+
+
+#ma_photo
+{
+  border-radius: 10px;
+  margin-top: 10px;
+  max-width: 250px;
+}
+
+#text_article
+{
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.67em;
+}
+
+#footer_index
+{
+  margin-top: 30px;
+}
+
+
+#tof_et_presentation
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  border-width: 4px 0px 4px 0px;
+  border-style: solid;
+  border-color: rgba(0,0,250,0.25);
+}
+
+#nav_ul_barre_page
+{
+    list-style-type: none;
+    color: #ffffff;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#nav_li_barre_page, a
+{
+    display: inline-block;
+    margin-right: 15px;
+    color: #ffffff;
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    font-size: 1.1em;
+}
+#nav_barre_page_telecharge
+{
+   display: block;
+   margin-bottom: 15px;
+    background-color: #330099;
+    border: 1px solid #181818;
+    border-radius: 10px;   
+}
+#corps
+{
+   margin-bottom: 15px;
+   margin-top: 15px;
+   padding-top: 15px;
+   padding-bottom: 15px;/*
+   box-shadow: 8px 8px 8px #bfbfbf;*/
+
+}
+
+#tete
+{
+
+    background-color: rgb(240,240,240);/*
+    box-shadow: 8px 8px 5px #aaa;*/
+    height: auto;
+}
+
+
+#ad_et_tel
+{
+  font-family:  "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-size: 19px;
+  line-height: 1.666666667em;
+  color: #6c6764;
+  margin-top: 30px;
+}
+#nom
+{
+  font-family: Dayrom, serif, 'BallparkWeiner';
+  font-size: 30px;
+  line-height: 1.290322581em;
+  font-weight: normal;
+  color: #009ee0;
+}
+#entete { 
+font:Verdana, Geneva, sans-serif;
+font-size: 25px; 
+color: #40427f; 
+text-align: center;
+padding:20px;
+margin: 0px 0 30px 0;
+border:1px solid #777879;
+border-radius: 5px; 
+background-color: #EAFDFF ;
+}
+
+#pied
+{
+
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #bfbfbf;
+  padding-top: 10px;
+}
+
+
+#a_li_barre_page
+{   
+    display: inline-block;
+    color: #6c6764;
+    text-align: center;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    font-size: 0.675em;
+}
+
+/*********
+  Expérience
+
+*********/
+
+#aside_exp_form
+ {
+    background-color: rgba(0,0,250,0.25);
+    box-shadow: 8px 8px 5px #aaa;
+    border-radius: 5px;
+    color: #330099;
+    font-size: 1.8em;  
+    text-transform: uppercase;
+ }
+
+ #annee
+{
+    font-size: 20px;
+    color: #330099;
+    line-height: 20px;
+}
+
+#tete_fixe
+ {}
+
+#titre_exp_form
+{
+    font-size: 20px;
+    background-color: #330099;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+#sujet_exp_form
+{
+  line-height: 20px;
+  font-size:1.2em;
+}
+
+#plaquette
+{
+  margin-top: 30px;
+}
+
+#titre_aside_exp_form
+{
+}
+
+#row-exp_form
+{
+  border-width: 0px 0px 4px 0px;
+  border-style: solid;
+  border-color: rgba(0,0,250,0.25);
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+#plaquette_titre
+{
+  box-shadow: 8px 8px 8px #bfbfbf;
+}
+
+/*********
+  Foramtion
+
+*********/
+
+#nav_pied
+{   
+    display: inline-block;
+    text-align: center;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #bfbfbf;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    font-size: 0.675em;
+    
+  color: #6c6764;
+  border: 2px solid black;
+}
+
+
+
+/*****************
+
+formuliare de contact
+
+****************/
+
+
+#form_contact{
+
+   box-shadow: 0px 8px 8px #bfbfbf;
+}
+
+
+
+#entete_form { 
+font:Verdana, Geneva, sans-serif;
+font-size: 25px; 
+color: #40427f; 
+text-align: center;
+padding:20px;
+margin: 0px 0 30px 0;
+border:1px solid #777879;
+border-radius: 5px; 
+background-color: #EAFDFF ;
+}
+
+legend {
+font:Verdana, Geneva, sans-serif;
+font-size:18px;
+color:#445668;
+background-color:#E6F2FF;
+border:1px solid;
+border-color:#000000;
+padding:5px 10px 5px 10px;
+border-radius: 5px;
+}
+
+#plaquette_contact
+{
+    width: 60%;
+    text-align: center;
+    background-color: #ffffff; 
+    display: inline-block;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+
+#form_contact{
+
+   box-shadow: 0px 8px 8px #bfbfbf;
+}
+
+
+/****************************
+
+compétence
+
+****************************/
