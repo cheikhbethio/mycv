@@ -63,11 +63,7 @@ body {
     width: 1170px;
   }
 }
-#bloc_page
-{
 
-   /*box-shadow: 8px 8px 8px #bfbfbf;*/
-}
 /***********************
 
 
@@ -156,7 +152,7 @@ nav a:hover
     padding-right: 0px;
     padding-left: 0px;
 }
-#nav_li_barre_page, a
+#nav_li_barre, a
 {
     display: inline-block;
     margin-right: 15px;
@@ -167,11 +163,14 @@ nav a:hover
 }
 #nav_barre_page_telecharge
 {
-   display: block;
-   margin-bottom: 15px;
-    background-color: #330099;
-    border: 1px solid #181818;
-    border-radius: 10px;   
+  display: block;
+  margin-bottom: 15px;
+  background-color: #330099;
+  border: 1px solid #181818;
+  border-radius: 10px;   
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 94%;
 }
 #corps
 {
@@ -381,6 +380,13 @@ border-radius: 5px;
    box-shadow: 0px 8px 8px #bfbfbf;
 }
 
+
+#test_nav{
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
 
 /****************************
 

@@ -49,7 +49,7 @@ body
 
 nav a
 {
-    font-size: 1.3em;
+    //font-size: 1.3em;
     color: #ffffff;
     padding-bottom: 3px;
     text-decoration: none;
@@ -191,18 +191,19 @@ a { text-decoration: none; color: #EC5C93; }
 
 
 #entete_competence{
-/* styles de caractères */ 
 font:Verdana, Geneva, sans-serif;
 font-size: 25px; 
 color: #40427f;
 text-align: center;
-width: 30%;
+width: 80%;
+margin-right: 10%;
+margin-left: 10%;
+margin-top: 2%;
 border:1px solid #777879;
 border-radius: 5px; 
-/* couleur de fond */
 background-color: #EAFDFF 
 }
-
+/*
 #header_competence
 {
     position: fixed;
@@ -216,7 +217,7 @@ background-color: #EAFDFF
     display: block;
     box-shadow: 8px 8px 8px #bfbfbf; 
 }
-
+*/
 #nav_barre_page_competence
 {
     display: block;
@@ -226,4 +227,9 @@ background-color: #EAFDFF
     background-color: #330099;
     border: 1px solid #181818;
     border-radius: 10px;  
+}
+
+
+#test{
+  padding-left: 10px;
 }

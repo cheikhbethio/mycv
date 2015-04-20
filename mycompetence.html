@@ -3,32 +3,34 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style_competence.css">
+        <link href="bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link href="tuto.css" rel="stylesheet">
         <script src="script2.js"></script>
-       <!-- <script src="http://code.jquery.com/jquery.min.js" type="text/javascript"></script>-->
     </head>
     <body>
-        <div id="container">
+        <div id="bloc_page" class="container">
    			<div class="row">
 		        <div id="tete" class="col-lg-12">
 		            <nav id="nav_barre_page_telecharge" class="col-lg-offset-1 col-lg-10"> 
-		                    <ul id="nav_ul_barre_page">
-		                        <li id="nav_li_barre_page"><a href="index.html" >À propos de moi</a></li>|
-		                        <li id="nav_li_barre_page"><a href="myformation.html">Formation</a></li>|
-		                        <li id="nav_li_barre_page"><a href="myexperience.html">Expérience</a></li>| 
-		                        <li id="nav_li_barre_page"><a href="mycompetence.html">Compétences</a></li>|
-		                        <li id="nav_li_barre_page"><a href="portefolio.html">Portefolio</a></li>|
-		                        <li id="nav_li_barre_page"><a href="contact.html">Contact</a></li>|
-		                        <li id="nav_li_barre_page"><a href="telecharger.html">Télécharger CV</a></li>
-		                    </ul>
+                            <ul id="nav_ul_barre_page">
+                                <li id="nav_li_barre"><a href="index.html"> <span class="glyphicon glyphicon-user"></span> À propos de moi</a></li>
+                                <li id="nav_li_barre"><a href="myformation.html"> <span class="glyphicon glyphicon-education"></span> Formation</a></li>
+                                <li id="nav_li_barre"><a href="myexperience.html">  <span class="glyphicon glyphicon-briefcase"></span> Expérience</a></li>
+                                <li id="nav_li_barre"><a href="mycompetence.html"> <span class="glyphicon glyphicon-level-up"></span> Compétences</a></li>
+                                <li id="nav_li_barre"><a href="portefolio.html"> <span class="glyphicon glyphicon-tasks"></span> Portefolio</a></li>
+                                <li id="nav_li_barre"><a href="contact.html"> <span class="glyphicon glyphicon-home"></span> Contact</a></li>
+                                <li id="nav_li_barre"><a href="telecharger.html"> <span class="glyphicon glyphicon-download-alt"></span> Télécharger CV</a></li>
+                            </ul>
 		            </nav>
 		        </div>
-
-	    <!--*******************************************************************-->	        
-                <div id = "plaquette">
-                    <div>
-                        <div id="entete_competence"><strong>Programmation</strong></div>
-                    </div>
+            </div>
+                
+            <div class="row">
+                <div  class="col-lg-12">
+                    <div id="entete_competence"><p id="test"><strong>Programmation</strong></p></div>
+                </div>
+                <div id = "plaquette" >
                     <div id = "item_competence">
                         <div id = "foto_competence">
                             <img src="images/icon_forum_langage-java.png">
@@ -112,7 +114,7 @@
 
                         </div>
                     </div>
-                     <div id = "item_competence">
+                    <div id = "item_competence">
 
                         <div id = "foto_competence">
                             <img src="images/lisp.jpg">
@@ -154,13 +156,13 @@
 
                         </div>
                     </div>
-               </div>
-        
-        <!--*******************************************************************-->
+                </div>
+            </div>
+            <div class="row">
+                <div  class="col-lg-12">
+                    <div id="entete_competence"><strong>Web</strong></div>
+                </div>
                 <div id = "plaquette">
-                    <div>
-                        <div id="entete_competence"><strong>Web</strong></div>
-                    </div>
                     <div id = "item_competence">
                         <div id = "foto_competence">
                             <img src="images/php.png">
@@ -244,7 +246,7 @@
 
                         </div>
                     </div>
-                     <div id = "item_competence">
+                    <div id = "item_competence">
 
                         <div id = "foto_competence">
                             <img src="images/icon_forum_javascript.png">
@@ -288,7 +290,7 @@
                         </div>
                     </div>
                     
-                     <div id = "item_competence">
+                    <div id = "item_competence">
                         <div id = "foto_competence">
                             <img src="images/html5.png">
                         </div>                        
@@ -307,7 +309,7 @@
                         </div>
                     </div>
 
-                     <div id = "item_competence">
+                    <div id = "item_competence">
                         <div id = "foto_competence">
                             <img src="images/laravel.png">
                         </div>                        
@@ -325,13 +327,13 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <!--********Langue******************-->
-                <div id = "plaquette">
-                    <div>
+             </div>
+            <div class="row">  
+                    <div class="col-lg-12">
                         <div id="entete_competence"><strong>Langues</strong></div>
                     </div>
+                <div id = "plaquette">
                     <div id = "item_competence">
                         <div id = "foto_competence">
                             <img src="images/francais.jpg">
@@ -370,7 +372,6 @@
                                   </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <div id = "item_competence">
@@ -395,7 +396,7 @@
                         </div>
                     </div> 
                 </div>
-               <script src="scripts.js"></script>
+                <script src="scripts.js"></script>
             </div>
         </div>
     </body>
