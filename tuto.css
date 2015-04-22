@@ -22,7 +22,12 @@
     font-style: normal;
 }
 
-
+#bobo{
+  color: #ff0000;
+}
+.bobo{
+  color: #ff0000;
+}
 
 body {
   width: 100%;/*
@@ -44,6 +49,9 @@ body {
   min-width: 230px;
 }
 
+.check_menu{
+  display: none;
+}
 #bloc_page{
   border-radius: 0px 0px 10px 10px;  
 }
@@ -71,7 +79,7 @@ body {
 nav a:hover
 {
     color: #FFFF00;
-    border-bottom: 3px solid #760001;
+   // border-bottom: 3px solid #760001;
 }
 #tete_index
 {
@@ -89,8 +97,8 @@ nav a:hover
 
 #tataaside
 {
-    background-color: rgba(0,0,250,0.18);    
-    box-shadow: 8px 8px 5px #aaa;
+    background-color: rgba(233, 244, 235, 0.18);    
+    box-shadow: 3px 3px 9px #aaa;
     border-radius: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -101,7 +109,7 @@ nav a:hover
     line-height: 1.666666667em;
     color: #6c6764;
     text-align: center;
-    min-width: 230px;
+    min-width: 220px;
   }
 
 #corps_index
@@ -127,6 +135,11 @@ nav a:hover
   font-family: 'Trebuchet MS', Arial, sans-serif;
   font-size: 18px;
   line-height: 1.67em;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #footer_index

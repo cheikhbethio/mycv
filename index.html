@@ -6,30 +6,35 @@
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link href="tuto.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="responsive_menu.css" media="screen and (max-width:1201px)">
    	</head>
     <body>
        <div id="bloc_page" class="container">
             <div class="row" id="tete_index">
-                <div id="titre_principal" class="col-lg-12">             
+                <div id="titre_principal" class="col-md-12">             
                     <h1>MOUSSA SOW</h1>
                     <h3>Master 2 Informatique, Génie logiciel, Conduite de projet</h3>
                 </div>
-                <div id="test_nav" class="col-lg-12">
-                    <nav id="nav_barre_page_telecharge" class="col-lg-offset-1 col-lg-10"> 
-                            <ul id="nav_ul_barre_page">
-                                <li id="nav_li_barre"><a href="index.html"> <span class="glyphicon glyphicon-user"></span> À propos de moi</a></li>
-                                <li id="nav_li_barre"><a href="myformation.html"> <span class="glyphicon glyphicon-education"></span> Formation</a></li>
-                                <li id="nav_li_barre"><a href="myexperience.html">  <span class="glyphicon glyphicon-briefcase"></span> Expérience</a></li>
-                                <li id="nav_li_barre"><a href="mycompetence.html"> <span class="glyphicon glyphicon-level-up"></span> Compétences</a></li>
-                                <li id="nav_li_barre"><a href="portefolio.html"> <span class="glyphicon glyphicon-tasks"></span> Portefolio</a></li>
-                                <li id="nav_li_barre"><a href="contact.html"> <span class="glyphicon glyphicon-home"></span> Contact</a></li>
-                                <li id="nav_li_barre"><a href="telecharger.html"> <span class="glyphicon glyphicon-download-alt"></span> Télécharger CV</a></li>
-                            </ul>
+                <div id="test_nav" class="col-md-12">
+                    <nav id="nav_barre_page_telecharge" class="col-md-offset-1 col-md-10"> 
+                        <ul id="nav_ul_barre_page">
+                            <li id="nav_li_barre"><a href="index.html"> <span class="glyphicon glyphicon-user"></span> À propos de moi</a></li>
+                            <li id="nav_li_barre"><a href="myformation.html"> <span class="glyphicon glyphicon-education"></span> Formation</a></li>
+                            <li id="nav_li_barre"><a href="myexperience.html">  <span class="glyphicon glyphicon-briefcase"></span> Expérience</a></li>
+                            <li id="nav_li_barre"><a href="mycompetence.html"> <span class="glyphicon glyphicon-level-up"></span> Compétences</a></li>
+                            <li id="nav_li_barre"><a href="portefolio.html"> <span class="glyphicon glyphicon-tasks"></span> Portefolio</a></li>
+                            <li id="nav_li_barre"><a href="contact.html"> <span class="glyphicon glyphicon-home"></span> Contact</a></li>
+                            <li id="nav_li_barre"><a href="telecharger.html"> <span class="glyphicon glyphicon-download-alt"></span> Télécharger CV</a></li>
+                        </ul>
+                        <div class="check_menu">
+                            <div class="title_menu"> Menu</div>
+                            <div class="header__icon" id="header__icon"></div>
+                        </div>
                     </nav>
                 </div>
             </div>
             <div class="row" id="corps_index">
-                <div class="col-lg-3">
+                <div class="col-md-3">
                     <aside id="tataaside"> 
                         <h1><strong>À propos:</strong></h1>
                         <p> SOW MOUSSA : <br></p>    
@@ -41,17 +46,17 @@
                     </aside>
                 </div>
 
-                <div class="col-lg-6" id="tof_et_presentation">      
-                        <section id="text_article" class="col-lg-offset-1 col-lg-10">
+                <div class="col-md-6" id="tof_et_presentation">      
+                        <section id="text_article" class="col-md-offset-1 col-md-10">
                             <p class="text-justify">Étudiant en deuxième année de master Informatique à l'université de Bordeaux 1 et dans le cadre de cette formation, je suis à la recherche d'un stage d'une durée de six mois à compter du mois d'avril prochain.<br>
                             Passionné de l'informatique et des nouvelles technologies, j'ai acquis une bonne maîtrise de beaucoup de langages de programmation.<br>
                             En plus d'un bon sens du relationnel, je suis autonome, rigoureux et méthodique.</p>
                         </section>   
                 </div>
 
-                <div class="col-lg-3" id="liens_sociaux">
-                    <img src="images/ma_tof.jpg" alt="Ma photo"  id="ma_photo" class="col-lg-12 img-rounded">
-                    <div class="col-lg-12" id="ligne_lien_1">
+                <div class="col-md-3" id="liens_sociaux">
+                    <img src="images/ma_tof.jpg" alt="Ma photo"  id="ma_photo" class="col-md-12 img-rounded">
+                    <div class="col-md-12" id="ligne_lien_1">
                         <p>
                             <a href="http://www.viadeo.com/profile/0021mjem2xkpjchw">
                                 <img src="images/viadeo-icon.png" alt="viadeo"  class="img-rounded">
@@ -62,7 +67,7 @@
                             <a href="https://plus.google.com/u/0/103485519685772720465/posts"  class="img-rounded"><img src="images/google-icon.png" alt="google+"  class="img-rounded"></a>                          
                         </p>
                     </div>
-                    <div class="col-lg-12"> 
+                    <div class="col-md-12"> 
                         <p id="taille_lien_foot">
                             <img src="images/rss.png" alt="RSS" class="img-rounded">
                             <img src="images/twitter.png" alt="Twitter"  class="img-rounded">
@@ -71,8 +76,8 @@
                     </div>
                 </div>
 
-                <footer class="col-lg-12" id="footer_index">
-                    <div id="pied" class="col-lg-12">
+                <footer class="col-md-12" id="footer_index">
+                    <div id="pied" class="col-md-12">
                         <ul id="nav_ul_barre_page">
                             <li id="nav_li_barre"><a href="http://www.u-bordeaux.fr/Pied-de-page/Credits-et-mentions-legales" id="a_li_barre_page"> Crédit et mentions légales</a></li>
                             <li id="nav_li_barre"><a href="http://www.u-bordeaux1.fr/ufr/math-info/formation/informatique/masters/master-informatique/specialite-genie-logiciel.html" id="a_li_barre_page"> Université de Bordeaux</a></li>
@@ -80,6 +85,8 @@
                         </ul>
                     </div>
                 </footer>
-            </div>    
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>    
+            <script src="scripts.js"></script>
 	</body>
 </html>
