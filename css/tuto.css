@@ -1,11 +1,11 @@
 @font-face
 {
     font-family: 'BallparkWeiner';
-    src: url('polices/ballpark.eot');
-    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
-         url('polices/ballpark.woff') format('woff'),
-         url('polices/ballpark.ttf') format('truetype'),
-         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    src: url('../polices/ballpark.eot');
+    src: url('../polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('../polices/ballpark.woff') format('woff'),
+         url('../polices/ballpark.ttf') format('truetype'),
+         url('../polices/ballpark.svg#BallparkWeiner') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,11 +13,11 @@
 @font-face
 {
     font-family: 'Dayrom';
-    src: url('polices/dayrom.eot');
-    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
-         url('polices/dayrom.woff') format('woff'),
-         url('polices/dayrom.ttf') format('truetype'),
-         url('polices/dayrom.svg#Dayrom') format('svg');
+    src: url('../polices/dayrom.eot');
+    src: url('../polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('../polices/dayrom.woff') format('woff'),
+         url('../polices/dayrom.ttf') format('truetype'),
+         url('../polices/dayrom.svg#Dayrom') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -33,7 +33,7 @@ body {
   width: 100%;/*
   background-color: #00FF00;*/
     	background-color: #62a9b6;
-    	background-image : url(./images/bg.png);
+    	background-image : url(../images/bg.png);
 }
 [class*="col-"], footer {
   border-radius: 6px;
@@ -168,11 +168,11 @@ nav a:hover
 #nav_li_barre, a
 {
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 1vw;
     color: #ffffff;
     font-family: Dayrom, serif;
     font-weight: normal;
-    font-size: 13px;
+    font-size: 15px;
 }
 #nav_barre_page_telecharge
 {
